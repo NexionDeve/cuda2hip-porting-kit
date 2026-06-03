@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# C/CUDA/HIP builds
+*.o
+*.exe
+*.out
+*.obj
+*.hipfb
+
+# Env
+.env
+.env.*
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
