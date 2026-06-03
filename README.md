@@ -1,24 +1,24 @@
 # cuda2hip-porting-kit
 
-A small collection of CUDA to HIP porting examples with a repeatable workflow.
+A practical CUDA to HIP porting toolkit with small, focused examples.
 
 ## Overview
 
-This repository documents a practical CUDA to HIP porting approach.
+This repository documents a straightforward approach to porting CUDA workloads to HIP.
 
 It includes:
 - a CUDA baseline example
 - an equivalent HIP version
 - a minimal Makefile
 - a small porting helper script
-- notes on common migration points
+- notes on common migration steps
 
-## Goals
+## Key features
 
-- make porting steps explicit
-- keep examples small and readable
-- support local builds with CUDA and HIP toolchains
-- create a foundation for future GPU porting experiments
+- explicit CUDA and HIP side-by-side examples
+- small build workflow using `nvcc` and `hipcc`
+- lightweight automation for basic code migration
+- technical notes useful for GPU workload porting
 
 ## Repository layout
 
@@ -58,6 +58,10 @@ make hip
 python scripts/port.py examples/saxpy.cu examples/saxpy.cpp
 ```
 
-## Notes
+## Why this project exists
 
-This repo is intended as a technical notebook for porting CUDA workloads to HIP.
+This repository is intended as a technical notebook for migrating small CUDA workloads toward HIP.
+
+## License
+
+MIT
